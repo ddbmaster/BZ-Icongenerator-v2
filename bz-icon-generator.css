@@ -1,0 +1,77 @@
+        body {
+            font-family: system-ui, sans-serif;
+            background: #cddfe6;
+            color: #0371a4;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .wrapper {
+            display: flex;
+            gap: 20px;
+            width: 100%;
+            max-width: 1200px;
+            flex-wrap: wrap;
+        }
+
+        .controls, .preview {
+            background: gainsboro;
+            padding: 16px;
+            border-radius: 12px;
+            flex: 1 1 300px;
+        }
+
+        label {
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        input[type="range"],
+        input[type="file"],
+        button {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        #templateList img {
+            width: 80px;
+            border-radius: 10px;
+            cursor: pointer;
+            border: 2px solid #333;
+            transition: .15s;
+        }
+
+        #templateList img:hover {
+            border-color: #3b82f6;
+        }
+
+        canvas {
+            background: #cacaca;
+            border-radius: 12px;
+        }
+
+        button {
+            background: #3b82f6;
+            border: none;
+            padding: 10px;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        
+        .preview {
+    background: gainsboro;
+    padding: 16px;
+    border-radius: 12px;
+    flex: 1 1 300px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;     /* HIER: Canvas horizontal zentrieren */
+    justify-content: flex-start;
+}
