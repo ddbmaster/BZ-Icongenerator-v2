@@ -9,7 +9,7 @@ Am Ende kannst du das fertige Icon als PNG herunterladen – perfekt für Avatar
 ## 🚀 Features
 
 - 🖼 **BZ-Vorlagen Auswahl**  
-  Wähle aus verschiedenen BZ-Icon-Vorlagen (z. B. BZ, BZpro, BZpro Female usw.)
+  Wähle aus verschiedenen BZ-Icon-Vorlagen (z.B. BZ, BZpro,  BZprofemale .)
 
 - 📤 **Icon Upload**  
   Beliebiges Bild hochladen (PNG/JPG)
@@ -38,4 +38,4 @@ Der BZ Icon Generator benötigt **keine Installation** und **läuft komplett im 
 ### 1. Projekt herunterladen oder klonen
 
 ```bash
-git clone https://github.com/deinname/bz-icon-generator
+git clone https://github.com/ddbmaster/bz-icon-generator
